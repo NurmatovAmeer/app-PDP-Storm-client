@@ -1,0 +1,605 @@
+@mixin effect($property,$duration,$function){
+  transition: $property $duration $function;
+  -webkit-transition: $property $duration $function;
+  -moz-transition: $property $duration $function;
+  -o-transition: $property $duration $function;
+  -ms-transition:$property $duration $function;
+}
+
+/****** FONT STYLES ******/
+
+@font-face {
+font-family: SFPRO-DISPLAY;
+  src: url("../assets/fonts/SF-PRO-DISPLAY.ttf");
+}
+.SF-prodisplay{
+  font-family: SFPRO-DISPLAY,sans-serif;
+}
+/******** COLORS MAIN *********/
+
+$color-blue:#536DFD;
+$color-body:#E5E5E5;
+$color-white:#ffff;
+/***********_-_***********/
+/*********** PAGE # MENING KURSLARIM STYLES***********/
+/***********_-_***********/
+
+body{
+  background-color: $color-body;
+//  top styles
+  .top{
+    .navbar{
+      width: 100%;
+      height: 60px;
+
+
+      /* white */
+
+      background: #FFFFFF;
+      /* shawod2_kichik */
+
+      box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05);
+
+
+      .navbar-brand{
+        margin-left: 165px;
+      }
+      .dropdown{
+        z-index: 99;
+        margin-left: 200px;
+        width: 130px;
+        height: 30px;
+
+        opacity: 0.3;
+        /* seriy */
+
+        border: 1px solid #9DA7BB;
+        box-sizing: border-box;
+        border-radius: 4px;
+        p{
+          width: 102px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* violet */
+
+          color: blue;
+        }
+        .dropdown-menu{
+          z-index: 99;
+          .dropdown-item{
+            color: black;
+            z-index: 99;
+            background-color: white;
+          }
+        }
+
+      }
+      .language-selection{
+        width: 88px;
+        height: 30px;
+        margin-left: 470px;
+
+        opacity: 0.3;
+        /* seriy */
+
+        border: 1px solid #9DA7BB;
+        box-sizing: border-box;
+        border-radius: 4px;
+        option{
+          width: 38px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* seriy */
+
+          color: #9DA7BB;
+
+
+        }
+      }
+      .kirish-button{
+        margin-left: 100px;
+        width: 97px;
+        height: 28px;
+
+        /* violet */
+
+        background: #536DFD;
+        border-radius: 4px;
+        p{
+          margin-left: 20px;
+          width: 37px;
+          height: 14px;
+
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* white */
+
+          color: #FFFFFF;
+
+        }
+      }
+    }
+
+    .avatarplace{
+       .avatar{
+         margin-left: 165px;
+         width: 150px;
+         height: 150px;
+
+         background: url(../assets/images/avatar.jpg), #C4C4C4;
+       }
+       .col-4 {
+         h4 {
+           width: 156px;
+           height: 24px;
+           font-size: 20px;
+           line-height: 24px;
+           /* identical to box height */
+
+
+           /* black */
+
+           color: #2E2E2E;
+
+
+         }
+
+         .atrofi {
+           width: 175px;
+           height: 25px;
+
+           /* background */
+
+           background: #F1F2F6;
+           border-radius: 2px;
+
+           p {
+             width: 117px;
+             height: 17px;
+             font-size: 14px;
+             line-height: 17px;
+             /* identical to box height */
+
+
+             /* black */
+
+             color: #2E2E2E;
+
+           }
+         }
+
+         .belgi {
+           width: 95px;
+           height: 14px;
+           font-size: 12px;
+           line-height: 14px;
+
+           /* black */
+
+           color: #2E2E2E;
+         }
+         .rocket{
+           margin-left: 9px;
+         }
+         .brain{
+           margin-left: 9px;
+         }
+         .medal{
+           margin-left: 9px;
+         }
+       }
+       .balans{
+         h5{
+           width: 100px;
+           height: 24px;
+           font-size: 20px;
+           line-height: 24px;
+           /* identical to box height */
+
+
+           /* seriy */
+
+           color: #9DA7BB;
+
+         }
+         .bell{
+           margin-left: 100px;
+           width: 36px;
+           height: 36px;
+         }
+         .three{
+           margin-left: 30px;
+           width: 36px;
+           height: 36px;
+         }
+         .summa{
+           h3{
+             width: 300px;
+             height: 38px;
+             font-size: 32px;
+             line-height: 38px;
+
+             /* black */
+
+             color: #2E2E2E;
+           }
+           button{
+             margin-left: 20px;
+             width: 136px;
+             height: 40px;
+
+             /* violet */
+
+             background: #536DFD;
+             border-radius: 2px;
+
+           }
+           .pulse{
+             width: 45px;
+             height: 40px;
+
+             /* violet */
+
+             background: #536DFD;
+             border: 1px solid #536DFD;
+             box-sizing: border-box;
+             border-radius: 2px;
+           }
+         }
+       }
+     }
+  }
+
+//  header styles
+  .header{
+    .transparentmain{
+      height: 100px;
+      .nav-pills{
+        margin-top: 40px;
+        margin-left: 130px;
+        height: 50px;
+        .nav-item{
+          .nav-link{
+            margin-left: 15px;
+            width: 190px;
+            height: 21px;
+            font-size: 18px;
+            line-height: 21px;
+
+            /* seriy */
+
+            color: #9DA7BB;
+          }
+          .active{
+            width: 190px;
+            height: 40px;
+            background-color:$color-body;
+            border-bottom: 3px solid blue;
+          }
+          .badge{
+            position: absolute;
+            top: 24px;
+            left: 280px;
+            background-color: transparent;
+            border: #536DFD 1px solid;
+            color: #536DFD;
+            z-index: 99;
+          }
+        }
+      }
+    }
+
+    .inputter{
+      input {
+        margin-top: 40px;
+        margin-left: 165px;
+        color:white ;
+        width: 369px;
+        height: 34px;
+
+        /* seriy */
+
+        background: white;
+        opacity: 0.2;
+        border-radius: 4px;
+      }
+      .search{
+        position: absolute;
+        top: 47px;
+        left: 480px;
+        background-color: transparent;
+        z-index: 99;
+      }
+      button{
+        margin-left: 550px;
+        margin-top: 30px;
+        .navbar-toggler-icon{
+          width: 80px;
+          height: 34px;
+        }
+      }
+      .gray{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 60px;
+        height: 38px;
+      }
+      .darkgray{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 60px;
+        height: 38px;
+      }
+    }
+
+    .cards{
+      z-index: 99;
+      .card-1{
+        margin-left: 165px;
+        margin-top: 94px;
+        width: 350px;
+        height: 430px;
+
+        /* white */
+
+        background: #FFFFFF;
+        /* blue shadow 2 */
+
+        box-shadow: 0px 4px 20px rgba(1, 102, 145, 0.1);
+        border-radius: 4px;
+        .circulation{
+          width: 350px;
+          height: 180px;
+
+          background: url(../assets/images/circulate.jpg);
+          border-radius: 4px 4px 0px 0px;
+        }
+        .badge{
+          position: absolute;
+          top: 10px;
+          left: 40px;
+          z-index: 99;
+          width: 130px;
+          height: 26px;
+
+          background-color: #10C8A0;
+          border-radius: 2px;
+        }
+        .content{
+          margin-top: 20px;
+          width: 291px;
+          height: 63px;
+          font-size: 18px;
+          line-height: 5px;
+
+          /* black */
+
+          color: #2E2E2E;
+        }
+        .rating{
+          .stars{
+            width: 13.33px;
+            height: 12.68px;
+            box-sizing: border-box;
+            margin-top: 26px;
+          }
+          p{
+            margin-left: 20px;
+            span{
+              color: #9DA7BB;
+            }
+          }
+        }
+        .bolimlar{
+          .hajm{
+            p{
+              color: #9DA7BB;
+              width: 56px;
+              height: 14px;
+              font-size: 12px;
+            }
+            h4{
+              width: 63px;
+              height: 21px;
+              font-size: 18px;
+            }
+          }
+          .bolim{
+            margin-left: 30px;
+            p{
+              color: #9DA7BB;
+              width: 80px;
+              height: 14px;
+              font-size: 12px;
+            }
+            h4{
+              width: 63px;
+              height: 21px;
+              font-size: 18px;
+            }
+          }
+          button{
+            width: 42px;
+            height: 42px;
+            opacity: 0.4;
+            border: 1px solid #536DFD;
+            box-sizing: border-box;
+            color: #536DFD;
+            border-radius:50% ;
+            margin-top: 40px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .card-2{
+        margin-left: 40px;
+        margin-top: 94px;
+        width: 350px;
+        height: 430px;
+
+        /* white */
+
+        background: #FFFFFF;
+        /* blue shadow 2 */
+
+        box-shadow: 0px 4px 20px rgba(1, 102, 145, 0.1);
+        border-radius: 4px;
+        .circulation{
+          width: 350px;
+          height: 180px;
+
+          background: url(../assets/images/circulate.jpg);
+          border-radius: 4px 4px 0px 0px;
+        }
+        .badge{
+          position: absolute;
+          top: 10px;
+          left: 40px;
+          z-index: 99;
+          width: 130px;
+          height: 26px;
+
+          background-color: #10C8A0;
+          border-radius: 2px;
+        }
+        .content{
+          margin-top: 20px;
+          width: 291px;
+          height: 63px;
+          font-size: 18px;
+          line-height: 5px;
+
+          /* black */
+
+          color: #2E2E2E;
+        }
+        .rating{
+          .stars{
+            width: 13.33px;
+            height: 12.68px;
+            box-sizing: border-box;
+            margin-top: 26px;
+          }
+          p{
+            margin-left: 20px;
+            span{
+              color: #9DA7BB;
+            }
+          }
+        }
+        .bolimlar{
+          .hajm{
+            p{
+              color: #9DA7BB;
+              width: 56px;
+              height: 14px;
+              font-size: 12px;
+            }
+            h4{
+              width: 63px;
+              height: 21px;
+              font-size: 18px;
+            }
+          }
+          .bolim{
+            margin-left: 30px;
+            p{
+              color: #9DA7BB;
+              width: 80px;
+              height: 14px;
+              font-size: 12px;
+            }
+            h4{
+              width: 63px;
+              height: 21px;
+              font-size: 18px;
+            }
+          }
+          button{
+            width: 42px;
+            height: 42px;
+            opacity: 0.4;
+            background-color: blue;
+            box-sizing: border-box;
+            color: #536DFD;
+            border-radius:50% ;
+            margin-top: 40px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .card-3{
+        margin-left: 30px;
+        margin-top: 94px;
+        width: 350px;
+        height: 430px;
+        border: 3px black dotted;
+        p{
+          margin-top: 200px;
+          margin-left: 90px;
+        }
+      }
+    }
+
+    .spinners{
+      height: 200px;
+      z-index: 1;
+      .spinner1{
+        margin-left: 570px;
+        margin-top: 100px;
+      }
+      .spinner2{
+        margin-top: 100px;
+        margin-left: 30px;
+      }
+      p{
+        margin-top: 100px;
+        margin-left: 40px;
+      }
+    }
+  }
+//  footer styles
+
+.footer{
+  .asosiy{
+    margin-left: 165px;
+  }
+  .qoshimcha{
+    margin-left: 25px;
+  }
+  .qollash{
+    margin-left: 25px;
+  }
+  .tolov{
+
+    margin-left: 25px;
+    .margin{
+      margin-top: 140px;
+      width: 250px;
+    }
+  }
+  .soc-seti{
+    margin-left: 180px;
+    .facebook{
+      margin-left: 20px;
+    }
+    .instagram{
+      margin-left: 20px;
+    }
+    .telega{
+      margin-left: 20px;
+    }
+    button{
+      margin-left: 670px;
+    }
+  }
+}
+}

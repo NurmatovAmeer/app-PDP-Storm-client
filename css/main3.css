@@ -1,0 +1,404 @@
+/****** FONT STYLES ******/
+@font-face {
+  font-family: SFPRO-DISPLAY;
+  src: url("../assets/fonts/SF-PRO-DISPLAY.ttf"); }
+.SF-prodisplay {
+  font-family: SFPRO-DISPLAY,sans-serif; }
+
+/******** COLORS MAIN *********/
+/***********_-_***********/
+/*********** PAGE # MENING KURSLARIM STYLES***********/
+/***********_-_***********/
+body {
+  background-color: #E5E5E5; }
+  body .top .navbar {
+    width: 100%;
+    height: 60px;
+    /* white */
+    background: #FFFFFF;
+    /* shawod2_kichik */
+    box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05); }
+    body .top .navbar .navbar-brand {
+      margin-left: 165px; }
+    body .top .navbar .dropdown {
+      z-index: 99;
+      margin-left: 200px;
+      width: 130px;
+      height: 30px;
+      opacity: 0.3;
+      /* seriy */
+      border: 1px solid #9DA7BB;
+      box-sizing: border-box;
+      border-radius: 4px; }
+      body .top .navbar .dropdown p {
+        width: 102px;
+        height: 14px;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        /* violet */
+        color: blue; }
+      body .top .navbar .dropdown .dropdown-menu {
+        z-index: 99; }
+        body .top .navbar .dropdown .dropdown-menu .dropdown-item {
+          color: black;
+          z-index: 99;
+          background-color: white; }
+    body .top .navbar .language-selection {
+      width: 88px;
+      height: 30px;
+      margin-left: 470px;
+      opacity: 0.3;
+      /* seriy */
+      border: 1px solid #9DA7BB;
+      box-sizing: border-box;
+      border-radius: 4px; }
+      body .top .navbar .language-selection option {
+        width: 38px;
+        height: 14px;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        /* seriy */
+        color: #9DA7BB; }
+    body .top .navbar .kirish-button {
+      margin-left: 100px;
+      width: 97px;
+      height: 28px;
+      /* violet */
+      background: #536DFD;
+      border-radius: 4px; }
+      body .top .navbar .kirish-button p {
+        margin-left: 20px;
+        width: 37px;
+        height: 14px;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        /* white */
+        color: #FFFFFF; }
+  body .top .avatarplace .avatar {
+    margin-left: 165px;
+    width: 150px;
+    height: 150px;
+    background: url(../assets/images/avatar.jpg), #C4C4C4; }
+  body .top .avatarplace .col-4 h4 {
+    width: 156px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    /* black */
+    color: #2E2E2E; }
+  body .top .avatarplace .col-4 .atrofi {
+    width: 175px;
+    height: 25px;
+    /* background */
+    background: #F1F2F6;
+    border-radius: 2px; }
+    body .top .avatarplace .col-4 .atrofi p {
+      width: 117px;
+      height: 17px;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+      /* black */
+      color: #2E2E2E; }
+  body .top .avatarplace .col-4 .belgi {
+    width: 95px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    /* black */
+    color: #2E2E2E; }
+  body .top .avatarplace .col-4 .rocket {
+    margin-left: 9px; }
+  body .top .avatarplace .col-4 .brain {
+    margin-left: 9px; }
+  body .top .avatarplace .col-4 .medal {
+    margin-left: 9px; }
+  body .top .avatarplace .balans h5 {
+    width: 100px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    /* seriy */
+    color: #9DA7BB; }
+  body .top .avatarplace .balans .bell {
+    margin-left: 100px;
+    width: 36px;
+    height: 36px; }
+  body .top .avatarplace .balans .three {
+    margin-left: 30px;
+    width: 36px;
+    height: 36px; }
+  body .top .avatarplace .balans .summa h3 {
+    width: 300px;
+    height: 38px;
+    font-size: 32px;
+    line-height: 38px;
+    /* black */
+    color: #2E2E2E; }
+  body .top .avatarplace .balans .summa button {
+    margin-left: 20px;
+    width: 136px;
+    height: 40px;
+    /* violet */
+    background: #536DFD;
+    border-radius: 2px; }
+  body .top .avatarplace .balans .summa .pulse {
+    width: 45px;
+    height: 40px;
+    /* violet */
+    background: #536DFD;
+    border: 1px solid #536DFD;
+    box-sizing: border-box;
+    border-radius: 2px; }
+  body .header .transparentmain {
+    height: 100px; }
+    body .header .transparentmain .nav-pills {
+      margin-top: 40px;
+      margin-left: 130px;
+      height: 50px; }
+      body .header .transparentmain .nav-pills .nav-item .nav-link {
+        margin-left: 15px;
+        width: 190px;
+        height: 21px;
+        font-size: 18px;
+        line-height: 21px;
+        /* seriy */
+        color: #9DA7BB; }
+      body .header .transparentmain .nav-pills .nav-item .active {
+        width: 190px;
+        height: 40px;
+        background-color: #E5E5E5;
+        border-bottom: 3px solid blue; }
+      body .header .transparentmain .nav-pills .nav-item .badge {
+        position: absolute;
+        top: 24px;
+        left: 280px;
+        background-color: transparent;
+        border: #536DFD 1px solid;
+        color: #536DFD;
+        z-index: 99; }
+  body .header .inputter input {
+    margin-top: 40px;
+    margin-left: 165px;
+    color: white;
+    width: 369px;
+    height: 34px;
+    /* seriy */
+    background: white;
+    opacity: 0.2;
+    border-radius: 4px; }
+  body .header .inputter .search {
+    position: absolute;
+    top: 47px;
+    left: 480px;
+    background-color: transparent;
+    z-index: 99; }
+  body .header .inputter button {
+    margin-left: 550px;
+    margin-top: 30px; }
+    body .header .inputter button .navbar-toggler-icon {
+      width: 80px;
+      height: 34px; }
+  body .header .inputter .gray {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 60px;
+    height: 38px; }
+  body .header .inputter .darkgray {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 60px;
+    height: 38px; }
+  body .header .cards {
+    z-index: 99; }
+    body .header .cards .card-1 {
+      margin-left: 165px;
+      margin-top: 94px;
+      width: 350px;
+      height: 430px;
+      /* white */
+      background: #FFFFFF;
+      /* blue shadow 2 */
+      box-shadow: 0px 4px 20px rgba(1, 102, 145, 0.1);
+      border-radius: 4px; }
+      body .header .cards .card-1 .circulation {
+        width: 350px;
+        height: 180px;
+        background: url(../assets/images/circulate.jpg);
+        border-radius: 4px 4px 0px 0px; }
+      body .header .cards .card-1 .badge {
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        z-index: 99;
+        width: 130px;
+        height: 26px;
+        background-color: #10C8A0;
+        border-radius: 2px; }
+      body .header .cards .card-1 .content {
+        margin-top: 20px;
+        width: 291px;
+        height: 63px;
+        font-size: 18px;
+        line-height: 5px;
+        /* black */
+        color: #2E2E2E; }
+      body .header .cards .card-1 .rating .stars {
+        width: 13.33px;
+        height: 12.68px;
+        box-sizing: border-box;
+        margin-top: 26px; }
+      body .header .cards .card-1 .rating p {
+        margin-left: 20px; }
+        body .header .cards .card-1 .rating p span {
+          color: #9DA7BB; }
+      body .header .cards .card-1 .bolimlar .hajm p {
+        color: #9DA7BB;
+        width: 56px;
+        height: 14px;
+        font-size: 12px; }
+      body .header .cards .card-1 .bolimlar .hajm h4 {
+        width: 63px;
+        height: 21px;
+        font-size: 18px; }
+      body .header .cards .card-1 .bolimlar .bolim {
+        margin-left: 30px; }
+        body .header .cards .card-1 .bolimlar .bolim p {
+          color: #9DA7BB;
+          width: 80px;
+          height: 14px;
+          font-size: 12px; }
+        body .header .cards .card-1 .bolimlar .bolim h4 {
+          width: 63px;
+          height: 21px;
+          font-size: 18px; }
+      body .header .cards .card-1 .bolimlar button {
+        width: 42px;
+        height: 42px;
+        opacity: 0.4;
+        border: 1px solid #536DFD;
+        box-sizing: border-box;
+        color: #536DFD;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px; }
+    body .header .cards .card-2 {
+      margin-left: 40px;
+      margin-top: 94px;
+      width: 350px;
+      height: 430px;
+      /* white */
+      background: #FFFFFF;
+      /* blue shadow 2 */
+      box-shadow: 0px 4px 20px rgba(1, 102, 145, 0.1);
+      border-radius: 4px; }
+      body .header .cards .card-2 .circulation {
+        width: 350px;
+        height: 180px;
+        background: url(../assets/images/circulate.jpg);
+        border-radius: 4px 4px 0px 0px; }
+      body .header .cards .card-2 .badge {
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        z-index: 99;
+        width: 130px;
+        height: 26px;
+        background-color: #10C8A0;
+        border-radius: 2px; }
+      body .header .cards .card-2 .content {
+        margin-top: 20px;
+        width: 291px;
+        height: 63px;
+        font-size: 18px;
+        line-height: 5px;
+        /* black */
+        color: #2E2E2E; }
+      body .header .cards .card-2 .rating .stars {
+        width: 13.33px;
+        height: 12.68px;
+        box-sizing: border-box;
+        margin-top: 26px; }
+      body .header .cards .card-2 .rating p {
+        margin-left: 20px; }
+        body .header .cards .card-2 .rating p span {
+          color: #9DA7BB; }
+      body .header .cards .card-2 .bolimlar .hajm p {
+        color: #9DA7BB;
+        width: 56px;
+        height: 14px;
+        font-size: 12px; }
+      body .header .cards .card-2 .bolimlar .hajm h4 {
+        width: 63px;
+        height: 21px;
+        font-size: 18px; }
+      body .header .cards .card-2 .bolimlar .bolim {
+        margin-left: 30px; }
+        body .header .cards .card-2 .bolimlar .bolim p {
+          color: #9DA7BB;
+          width: 80px;
+          height: 14px;
+          font-size: 12px; }
+        body .header .cards .card-2 .bolimlar .bolim h4 {
+          width: 63px;
+          height: 21px;
+          font-size: 18px; }
+      body .header .cards .card-2 .bolimlar button {
+        width: 42px;
+        height: 42px;
+        opacity: 0.4;
+        background-color: blue;
+        box-sizing: border-box;
+        color: #536DFD;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px; }
+    body .header .cards .card-3 {
+      margin-left: 30px;
+      margin-top: 94px;
+      width: 350px;
+      height: 430px;
+      border: 3px black dotted; }
+      body .header .cards .card-3 p {
+        margin-top: 200px;
+        margin-left: 90px; }
+  body .header .spinners {
+    height: 200px;
+    z-index: 1; }
+    body .header .spinners .spinner1 {
+      margin-left: 570px;
+      margin-top: 100px; }
+    body .header .spinners .spinner2 {
+      margin-top: 100px;
+      margin-left: 30px; }
+    body .header .spinners p {
+      margin-top: 100px;
+      margin-left: 40px; }
+  body .footer .asosiy {
+    margin-left: 165px; }
+  body .footer .qoshimcha {
+    margin-left: 25px; }
+  body .footer .qollash {
+    margin-left: 25px; }
+  body .footer .tolov {
+    margin-left: 25px; }
+    body .footer .tolov .margin {
+      margin-top: 140px;
+      width: 250px; }
+  body .footer .soc-seti {
+    margin-left: 180px; }
+    body .footer .soc-seti .facebook {
+      margin-left: 20px; }
+    body .footer .soc-seti .instagram {
+      margin-left: 20px; }
+    body .footer .soc-seti .telega {
+      margin-left: 20px; }
+    body .footer .soc-seti button {
+      margin-left: 670px; }
+
+/*# sourceMappingURL=main3.css.map */

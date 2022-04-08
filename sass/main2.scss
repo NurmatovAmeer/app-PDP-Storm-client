@@ -1,0 +1,426 @@
+
+
+@mixin effect($property,$duration,$function){
+  transition: $property $duration $function;
+  -webkit-transition: $property $duration $function;
+  -moz-transition: $property $duration $function;
+  -o-transition: $property $duration $function;
+  -ms-transition:$property $duration $function;
+}
+
+/****** FONT STYLES ******/
+
+@font-face {
+  font-family: SFPRO-DISPLAY;
+  src: url("../assets/fonts/SF-PRO-DISPLAY.ttf");
+}
+.SF-prodisplay{
+  font-family: SFPRO-DISPLAY,sans-serif;
+}
+/******** COLORS MAIN *********/
+
+$color-blue:#536DFD;
+$color-body:#E5E5E5;
+$color-white:#ffff;
+
+body {
+  //  top styles
+  .top {
+    .navbar {
+      height: 60px;
+
+      background: #FFFFFF;
+      box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05);
+      .navbar-brand {
+        margin-left: 165px;
+      }
+
+      .dropdown {
+        z-index: 99;
+        margin-left: 200px;
+        width: 130px;
+        height: 30px;
+
+        opacity: 0.3;
+        /* seriy */
+
+        border: 1px solid #9DA7BB;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        p {
+          width: 102px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* violet */
+
+          color: blue;
+        }
+
+        .dropdown-menu {
+          z-index: 99;
+
+          .dropdown-item {
+            color: black;
+            z-index: 99;
+            background-color: white;
+          }
+        }
+
+      }
+
+      .language-selection {
+        width: 88px;
+        height: 30px;
+        margin-left: 470px;
+
+        opacity: 0.3;
+        /* seriy */
+
+        border: 1px solid #9DA7BB;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        option {
+          width: 38px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* seriy */
+
+          color: #9DA7BB;
+
+
+        }
+      }
+
+      .kirish-button {
+        margin-left: 100px;
+        width: 97px;
+        height: 28px;
+
+        /* violet */
+
+        background: #536DFD;
+        border-radius: 4px;
+
+        a{
+          margin-left: 20px;
+          width: 37px;
+          height: 14px;
+
+          font-size: 12px;
+          line-height: 14px;
+          text-transform: uppercase;
+
+          /* white */
+
+          color: #FFFFFF;
+
+        }
+      }
+    }
+
+    .top-footer{
+      background-color: $color-body;
+      max-width: 1440px;
+      min-width: 1000px;
+      height: 190px;
+
+      h2{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 165px;
+        width: 350px;
+        height: 45px;
+        font-size: 38px;
+        line-height: 45px;
+        text-transform: uppercase;
+
+        /* black */
+
+        color: #2E2E2E;
+
+      }
+      input{
+        margin-bottom: 50px;
+        margin-left: 550px;
+        margin-top: -90px;
+        width: 369px;
+        height: 40px;
+      }
+      .search{
+        position: absolute;
+        top: 70px;
+        left: 900px;
+      }
+      .top-pills{
+        color: black;
+        width: 80%;
+        margin-right: 120px;
+        margin-left: 128px;
+        height: 21px;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        /* seriy */
+        .active{
+          font-size: 20px;
+          color: $color-blue;
+          background-color: transparent;
+          width: 120px;
+          height: 30px;
+          border-bottom: 3px $color-blue solid;
+        }
+      }
+    }
+  }
+
+//  main styles
+  .main{
+    .main-1{
+      width: 80%;
+      margin-left: 120px;
+      margin-right: 120px;
+      .active{
+        background-color: transparent;
+        border-bottom: 3px solid $color-blue;
+        width:200px;
+        height: 50px;
+      }
+    }
+
+    button{
+      border: $color-body 0.5px solid;
+      background-color: transparent;
+      margin-left: 200px;
+    }
+    .filter-card {
+      margin-left: 100px;
+      margin-top: 20px;
+      width: 500px;
+      box-shadow:0px 0px 5px 2px;
+
+
+    .qator1{
+      width: 200px;
+      height: 200px;
+      .input1{
+        margin-top: 8px;
+        margin-left: -130px;
+      }
+      .input2{
+        margin-top: 22px;
+        margin-left: -130px;
+      }
+      .input3{
+        margin-top: 20px;
+        margin-left: -155px;
+      }
+      .input4{
+        margin-top: 20px;
+        margin-left: -153px;
+      }
+      .input5{
+        margin-top: 20px;
+        margin-left: -135px;
+      }
+      .input6{
+        margin-top: 20px;
+        margin-left: -130px;
+      }
+
+    }
+    .qator2{
+      width: 200px;
+      .d-flex{
+        img{
+          width: 15px;
+          height: 15px;
+        }
+        p{
+          margin-top: -5px;
+          margin-left: 20px;
+        }
+      }
+      .input1{
+        margin-top: 17px;
+        margin-left: -150px;
+      }
+      .input2{
+        margin-top: 15px;
+        margin-left: -150px;
+      }
+      .input3{
+        margin-top: -47px;
+        margin-left: 15px;
+      }
+      .input4{
+        margin-top: -70px;
+        margin-left: 15px;
+      }
+    }
+      input{
+        margin-top: -25px;
+        width: 15px;
+        height: 15px;
+      }
+      label{
+        margin-left: 50px;
+      }
+    }
+
+
+    .tab-content{
+      .tab-pane{
+        .card-1{
+          margin-top: 20px;
+          width: 1100px;
+          height: 180px;
+           img{
+             width: 300px;
+             height: 180px;
+             margin-right: 0px;
+             margin-left: -80px;
+          }
+          .card-content{
+            height: 180px;
+            margin-left: 10px;
+            h5 {
+              margin-bottom: 50px;
+              width: 300px;
+              height: 42px;
+              font-size: 18px;
+              line-height: 21px;
+
+              /* violet */
+
+              color: #536DFD;
+
+            }
+            p{
+              margin-top: -30px;
+              width: 462px;
+              height: 51px;
+              font-size: 14px;
+              line-height: 17px;
+
+              color: #606060;
+            }
+          }
+          .bolimlar{
+            height: 70px;
+            .hajm{
+              margin-top: 10px;
+              margin-left: 20px;
+              margin-right: 10px;
+              h4{
+                margin-top: -30px;
+              }
+            }
+            .bolim{
+              margin-top: 10px;
+              margin-left: -300px;
+              h4{
+                margin-top: -30px;
+              }
+            }
+            .rating{
+              margin-top: 0px;
+              width: 450px;
+              margin-left: -300px;
+              img{
+                margin-right: 1px;
+                margin-left: 1px;
+                width: 13.33px;
+                height: 12.68px;
+                /* yellow */
+              }
+              p{
+                margin-top: -5px;
+                margin-left: 20px;
+                width: 200px;
+                height: 17px;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+
+                /* black */
+
+                color: #2E2E2E;
+                span{
+                  width: 150px;
+                  height: 17px;
+                  font-size: 14px;
+                  line-height: 17px;
+                  /* identical to box height */
+
+
+                  /* seriy */
+
+                  color: #9DA7BB;
+
+                }
+              }
+              button{
+                margin-top: -10px;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: #fff;
+                border: $color-blue solid 1px;
+                img{
+                  width: 20px;
+                  height: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // footer styles
+  .footer {
+    margin-top: 20px;
+    .asosiy{
+      margin-left: 165px;
+    }
+    .qoshimcha{
+      margin-left: 25px;
+    }
+    .qollash{
+      margin-left: 25px;
+    }
+    .tolov{
+
+      margin-left: 25px;
+      .margin{
+        margin-top: 140px;
+        width: 250px;
+      }
+    }
+    .soc-seti{
+      margin-left: 180px;
+      .facebook{
+        margin-left: 20px;
+      }
+      .instagram{
+        margin-left: 20px;
+      }
+      .telega{
+        margin-left: 20px;
+      }
+      button{
+        margin-left: 670px;
+      }
+    }
+  }
+}

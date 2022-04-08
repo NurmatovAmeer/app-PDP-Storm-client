@@ -1,0 +1,437 @@
+/****** FONT STYLES ******/
+@font-face {
+  font-family: SFPRO-DISPLAY;
+  src: url("../assets/fonts/SF-PRO-DISPLAY.ttf"); }
+.SF-prodisplay {
+  font-family: SFPRO-DISPLAY,sans-serif; }
+
+/******** COLORS MAIN *********/
+/********* PAGE 4 VIDEO  ******/
+body {
+  background-color: #E5E5E5; }
+  body .top .navbar {
+    width: 100%;
+    background-color: #fff; }
+    body .top .navbar .navbar-brand {
+      margin-left: 165px;
+      width: 98px;
+      height: 45.2px; }
+    body .top .navbar .navbar-avatar {
+      margin-left: 840px;
+      width: 40px;
+      height: 40px; }
+    body .top .navbar .avatar-content {
+      margin-right: 165px; }
+      body .top .navbar .avatar-content h5 {
+        width: 150px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+        body .top .navbar .avatar-content h5 span {
+          width: 103px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          /* seriy */
+          color: #9DA7BB; }
+  body .header .video-cont {
+    margin-top: 30px; }
+    body .header .video-cont .video {
+      width: 922px;
+      height: 516px;
+      background-color: #E5E5E5; }
+    body .header .video-cont .frame-content {
+      margin-top: 80px; }
+      body .header .video-cont .frame-content h4 {
+        width: 340px;
+        height: 29px;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .header .video-cont .frame-content .stars {
+        margin-left: 3px;
+        margin-top: 10px;
+        width: 10px;
+        height: 12.68px; }
+      body .header .video-cont .frame-content h5 {
+        width: 80px;
+        margin-top: 5px;
+        margin-left: 15px; }
+        body .header .video-cont .frame-content h5 span {
+          width: 34px;
+          height: 17px;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+          /* seriy */
+          color: #9DA7BB; }
+      body .header .video-cont .frame-content button {
+        margin-left: 40px;
+        width: 150px;
+        height: 40px;
+        background-color: #fff; }
+        body .header .video-cont .frame-content button img {
+          margin-top: 8px;
+          margin-left: 10px; }
+        body .header .video-cont .frame-content button .vector1 {
+          margin-top: 8px;
+          margin-right: 10px; }
+    body .header .video-cont .frame-title {
+      margin-top: 30px; }
+      body .header .video-cont .frame-title img {
+        width: 28px;
+        height: 28px;
+        background: url(../assets/images/Ellipse.png), #C4C4C4; }
+      body .header .video-cont .frame-title h5 {
+        margin-top: 4px;
+        margin-left: 20px;
+        width: 131px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #595858; }
+      body .header .video-cont .frame-title button {
+        width: 120px;
+        height: 30px;
+        /* violet */
+        background: #536DFD;
+        border-radius: 2px;
+        margin-left: 40px; }
+        body .header .video-cont .frame-title button p {
+          color: white; }
+  body .header .accordions {
+    height: 800px;
+    margin-top: 30px;
+    margin-left: 90px; }
+    body .header .accordions .menu {
+      width: 470px;
+      height: 96px;
+      /* white */
+      background: #FFFFFF;
+      /* shadov kichik */
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 4px; }
+      body .header .accordions .menu h4 {
+        width: 214px;
+        height: 48px;
+        font-size: 20px;
+        line-height: 24px;
+        /* black */
+        color: #2E2E2E; }
+      body .header .accordions .menu .uk-divider {
+        width: 39px;
+        height: 0px;
+        opacity: 0.5;
+        /* seriy */
+        border: 1px solid #9DA7BB;
+        transform: rotate(90deg); }
+      body .header .accordions .menu h5 {
+        width: 75px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+    body .header .accordions .card-body {
+      height: 75px; }
+      body .header .accordions .card-body .first-accordion img {
+        width: 100px;
+        height: 55px;
+        border-radius: 2px; }
+      body .header .accordions .card-body .first-accordion h5 {
+        margin-top: 0px;
+        width: 250px;
+        height: 17px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .header .accordions .card-body .clock {
+        margin-top: -15px;
+        margin-left: 120px;
+        width: 16px;
+        height: 16px; }
+      body .header .accordions .card-body .locker img {
+        width: 24px;
+        height: 24px; }
+      body .header .accordions .card-body p {
+        margin-top: -15px;
+        margin-left: 10px;
+        width: 60px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+  body .main .nav-pills {
+    background-color: transparent;
+    border: transparent; }
+    body .main .nav-pills .active {
+      background-color: transparent;
+      width: 150px;
+      height: 40px;
+      border-bottom: 3px solid #536DFD;
+      color: #536DFD;
+      font-size: 22px; }
+  body .main .tab-content #savol-javob .main-card {
+    margin-top: 50px;
+    width: 700px; }
+    body .main .tab-content #savol-javob .main-card img {
+      width: 40px;
+      height: 40px; }
+    body .main .tab-content #savol-javob .main-card h4 {
+      margin-top: 0px;
+      margin-left: 20px;
+      width: 200px;
+      height: 19px;
+      font-size: 19px;
+      line-height: 19px;
+      /* identical to box height */
+      /* black */
+      color: #2E2E2E; }
+    body .main .tab-content #savol-javob .main-card .lorem {
+      margin-top: -15px;
+      margin-left: 23px;
+      width: 476px;
+      height: 51px;
+      font-size: 14px;
+      line-height: 17px;
+      /* black */
+      color: #2E2E2E; }
+    body .main .tab-content #savol-javob .main-card button {
+      background-color: transparent;
+      border: transparent 1px solid;
+      color: #536DFD;
+      width: 150px;
+      height: 20px; }
+      body .main .tab-content #savol-javob .main-card button img {
+        width: 10px;
+        height: 10px; }
+      body .main .tab-content #savol-javob .main-card button .button-discription {
+        margin-top: -8px;
+        margin-left: 10px; }
+    body .main .tab-content #savol-javob .main-card .date {
+      margin-left: 200px;
+      margin-top: -20px; }
+  body .main .tab-content #savol-javob .form-group .form-control {
+    margin-left: 50px;
+    width: 503px;
+    height: 73px;
+    /* seriy */
+    border: 1px solid #9DA7BB;
+    box-sizing: border-box;
+    border-radius: 8px; }
+  body .main .tab-content #vazifalar {
+    height: 400px; }
+    body .main .tab-content #vazifalar .main-card {
+      height: 70px; }
+      body .main .tab-content #vazifalar .main-card .download {
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        /* violet */
+        background: #536DFD; }
+      body .main .tab-content #vazifalar .main-card h5 {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 300px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .main .tab-content #vazifalar .main-card p {
+        width: 41px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* seriy */
+        color: #9DA7BB; }
+      body .main .tab-content #vazifalar .main-card .divider {
+        margin-top: 77px;
+        margin-left: 5px;
+        width: 10px;
+        height: 3px;
+        left: 197px;
+        top: 856px;
+        /* seriy */
+        border: 1px solid #9DA7BB;
+        transform: rotate(90deg); }
+      body .main .tab-content #vazifalar .main-card .mb {
+        margin-top: 70px;
+        margin-left: -280px; }
+      body .main .tab-content #vazifalar .main-card .date {
+        margin-top: 70px;
+        margin-left: 15px; }
+      body .main .tab-content #vazifalar .main-card .fayl {
+        margin-top: 50px;
+        margin-left: 230px;
+        width: 99px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .main .tab-content #vazifalar .main-card .check {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-top: 35px;
+        margin-left: 200px;
+        border: 0.1px solid #E5E5E5; }
+  body .main .tab-content #Qollanmalar {
+    height: 400px; }
+    body .main .tab-content #Qollanmalar .main-card {
+      height: 70px; }
+      body .main .tab-content #Qollanmalar .main-card .download {
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        /* violet */
+        background: #536DFD; }
+      body .main .tab-content #Qollanmalar .main-card h5 {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 300px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .main .tab-content #Qollanmalar .main-card p {
+        width: 41px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* seriy */
+        color: #9DA7BB; }
+      body .main .tab-content #Qollanmalar .main-card .divider {
+        margin-top: 77px;
+        margin-left: 5px;
+        width: 10px;
+        height: 3px;
+        left: 197px;
+        top: 856px;
+        /* seriy */
+        border: 1px solid #9DA7BB;
+        transform: rotate(90deg); }
+      body .main .tab-content #Qollanmalar .main-card .mb {
+        margin-top: 70px;
+        margin-left: -280px; }
+      body .main .tab-content #Qollanmalar .main-card .date {
+        margin-top: 70px;
+        margin-left: 15px; }
+      body .main .tab-content #Qollanmalar .main-card .fayl {
+        margin-top: 50px;
+        margin-left: 230px;
+        width: 99px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .main .tab-content #Qollanmalar .main-card .check {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-top: 35px;
+        margin-left: 200px;
+        border: 0.1px solid #E5E5E5; }
+  body .main .tab-content #kochirib {
+    height: 400px; }
+    body .main .tab-content #kochirib .main-card {
+      height: 70px; }
+      body .main .tab-content #kochirib .main-card .download {
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        /* violet */
+        background: #536DFD; }
+      body .main .tab-content #kochirib .main-card h5 {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 300px;
+        height: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+      body .main .tab-content #kochirib .main-card p {
+        width: 41px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* seriy */
+        color: #9DA7BB; }
+      body .main .tab-content #kochirib .main-card .divider {
+        margin-top: 77px;
+        margin-left: 5px;
+        width: 10px;
+        height: 3px;
+        left: 197px;
+        top: 856px;
+        /* seriy */
+        border: 1px solid #9DA7BB;
+        transform: rotate(90deg); }
+      body .main .tab-content #kochirib .main-card .mb {
+        margin-top: 70px;
+        margin-left: -280px; }
+      body .main .tab-content #kochirib .main-card .date {
+        margin-top: 70px;
+        margin-left: 15px; }
+  body .main .spinners .spinner1 {
+    margin-top: 20px;
+    margin-left: 650px; }
+  body .main .spinners .spinner2 {
+    margin-top: 20px;
+    margin-left: 10px; }
+  body .main .spinners p {
+    margin-left: 20px; }
+  body .footer .asosiy {
+    margin-left: 165px; }
+  body .footer .qoshimcha {
+    margin-left: 25px; }
+  body .footer .qollash {
+    margin-left: 25px; }
+  body .footer .tolov {
+    margin-left: 25px; }
+    body .footer .tolov .margin {
+      margin-top: 140px;
+      width: 250px; }
+  body .footer .soc-seti {
+    margin-left: 180px; }
+    body .footer .soc-seti .facebook {
+      margin-left: 20px; }
+    body .footer .soc-seti .instagram {
+      margin-left: 20px; }
+    body .footer .soc-seti .telega {
+      margin-left: 20px; }
+    body .footer .soc-seti button {
+      margin-left: 670px; }
+
+/*# sourceMappingURL=main4.css.map */

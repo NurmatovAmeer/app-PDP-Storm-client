@@ -1,0 +1,282 @@
+/****** FONT STYLES ******/
+@font-face {
+  font-family: SFPRO-DISPLAY;
+  src: url("../assets/fonts/SF-PRO-DISPLAY.ttf"); }
+.SF-prodisplay {
+  font-family: SFPRO-DISPLAY,sans-serif; }
+
+/******** COLORS MAIN *********/
+body .top .navbar {
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(209, 209, 212, 0.05); }
+  body .top .navbar .navbar-brand {
+    margin-left: 165px; }
+  body .top .navbar .dropdown {
+    z-index: 99;
+    margin-left: 200px;
+    width: 130px;
+    height: 30px;
+    opacity: 0.3;
+    /* seriy */
+    border: 1px solid #9DA7BB;
+    box-sizing: border-box;
+    border-radius: 4px; }
+    body .top .navbar .dropdown p {
+      width: 102px;
+      height: 14px;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      /* violet */
+      color: blue; }
+    body .top .navbar .dropdown .dropdown-menu {
+      z-index: 99; }
+      body .top .navbar .dropdown .dropdown-menu .dropdown-item {
+        color: black;
+        z-index: 99;
+        background-color: white; }
+  body .top .navbar .language-selection {
+    width: 88px;
+    height: 30px;
+    margin-left: 470px;
+    opacity: 0.3;
+    /* seriy */
+    border: 1px solid #9DA7BB;
+    box-sizing: border-box;
+    border-radius: 4px; }
+    body .top .navbar .language-selection option {
+      width: 38px;
+      height: 14px;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      /* seriy */
+      color: #9DA7BB; }
+  body .top .navbar .kirish-button {
+    margin-left: 100px;
+    width: 97px;
+    height: 28px;
+    /* violet */
+    background: #536DFD;
+    border-radius: 4px; }
+    body .top .navbar .kirish-button a {
+      margin-left: 20px;
+      width: 37px;
+      height: 14px;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      /* white */
+      color: #FFFFFF; }
+body .top .top-footer {
+  background-color: #E5E5E5;
+  max-width: 1440px;
+  min-width: 1000px;
+  height: 190px; }
+  body .top .top-footer h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 165px;
+    width: 350px;
+    height: 45px;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    /* black */
+    color: #2E2E2E; }
+  body .top .top-footer input {
+    margin-bottom: 50px;
+    margin-left: 550px;
+    margin-top: -90px;
+    width: 369px;
+    height: 40px; }
+  body .top .top-footer .search {
+    position: absolute;
+    top: 70px;
+    left: 900px; }
+  body .top .top-footer .top-pills {
+    color: black;
+    width: 80%;
+    margin-right: 120px;
+    margin-left: 128px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    /* seriy */ }
+    body .top .top-footer .top-pills .active {
+      font-size: 20px;
+      color: #536DFD;
+      background-color: transparent;
+      width: 120px;
+      height: 30px;
+      border-bottom: 3px #536DFD solid; }
+body .main .main-1 {
+  width: 80%;
+  margin-left: 120px;
+  margin-right: 120px; }
+  body .main .main-1 .active {
+    background-color: transparent;
+    border-bottom: 3px solid #536DFD;
+    width: 200px;
+    height: 50px; }
+body .main button {
+  border: #E5E5E5 0.5px solid;
+  background-color: transparent;
+  margin-left: 200px; }
+body .main .filter-card {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 500px;
+  box-shadow: 0px 0px 5px 2px; }
+  body .main .filter-card .qator1 {
+    width: 200px;
+    height: 200px; }
+    body .main .filter-card .qator1 .input1 {
+      margin-top: 8px;
+      margin-left: -130px; }
+    body .main .filter-card .qator1 .input2 {
+      margin-top: 22px;
+      margin-left: -130px; }
+    body .main .filter-card .qator1 .input3 {
+      margin-top: 20px;
+      margin-left: -155px; }
+    body .main .filter-card .qator1 .input4 {
+      margin-top: 20px;
+      margin-left: -153px; }
+    body .main .filter-card .qator1 .input5 {
+      margin-top: 20px;
+      margin-left: -135px; }
+    body .main .filter-card .qator1 .input6 {
+      margin-top: 20px;
+      margin-left: -130px; }
+  body .main .filter-card .qator2 {
+    width: 200px; }
+    body .main .filter-card .qator2 .d-flex img {
+      width: 15px;
+      height: 15px; }
+    body .main .filter-card .qator2 .d-flex p {
+      margin-top: -5px;
+      margin-left: 20px; }
+    body .main .filter-card .qator2 .input1 {
+      margin-top: 17px;
+      margin-left: -150px; }
+    body .main .filter-card .qator2 .input2 {
+      margin-top: 15px;
+      margin-left: -150px; }
+    body .main .filter-card .qator2 .input3 {
+      margin-top: -47px;
+      margin-left: 15px; }
+    body .main .filter-card .qator2 .input4 {
+      margin-top: -70px;
+      margin-left: 15px; }
+  body .main .filter-card input {
+    margin-top: -25px;
+    width: 15px;
+    height: 15px; }
+  body .main .filter-card label {
+    margin-left: 50px; }
+body .main .tab-content .tab-pane .card-1 {
+  margin-top: 20px;
+  width: 1100px;
+  height: 180px; }
+  body .main .tab-content .tab-pane .card-1 img {
+    width: 300px;
+    height: 180px;
+    margin-right: 0px;
+    margin-left: -80px; }
+  body .main .tab-content .tab-pane .card-1 .card-content {
+    height: 180px;
+    margin-left: 10px; }
+    body .main .tab-content .tab-pane .card-1 .card-content h5 {
+      margin-bottom: 50px;
+      width: 300px;
+      height: 42px;
+      font-size: 18px;
+      line-height: 21px;
+      /* violet */
+      color: #536DFD; }
+    body .main .tab-content .tab-pane .card-1 .card-content p {
+      margin-top: -30px;
+      width: 462px;
+      height: 51px;
+      font-size: 14px;
+      line-height: 17px;
+      color: #606060; }
+  body .main .tab-content .tab-pane .card-1 .bolimlar {
+    height: 70px; }
+    body .main .tab-content .tab-pane .card-1 .bolimlar .hajm {
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 10px; }
+      body .main .tab-content .tab-pane .card-1 .bolimlar .hajm h4 {
+        margin-top: -30px; }
+    body .main .tab-content .tab-pane .card-1 .bolimlar .bolim {
+      margin-top: 10px;
+      margin-left: -300px; }
+      body .main .tab-content .tab-pane .card-1 .bolimlar .bolim h4 {
+        margin-top: -30px; }
+    body .main .tab-content .tab-pane .card-1 .bolimlar .rating {
+      margin-top: 0px;
+      width: 450px;
+      margin-left: -300px; }
+      body .main .tab-content .tab-pane .card-1 .bolimlar .rating img {
+        margin-right: 1px;
+        margin-left: 1px;
+        width: 13.33px;
+        height: 12.68px;
+        /* yellow */ }
+      body .main .tab-content .tab-pane .card-1 .bolimlar .rating p {
+        margin-top: -5px;
+        margin-left: 20px;
+        width: 200px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* black */
+        color: #2E2E2E; }
+        body .main .tab-content .tab-pane .card-1 .bolimlar .rating p span {
+          width: 150px;
+          height: 17px;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+          /* seriy */
+          color: #9DA7BB; }
+      body .main .tab-content .tab-pane .card-1 .bolimlar .rating button {
+        margin-top: -10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: #536DFD solid 1px; }
+        body .main .tab-content .tab-pane .card-1 .bolimlar .rating button img {
+          width: 20px;
+          height: 10px; }
+body .footer {
+  margin-top: 20px; }
+  body .footer .asosiy {
+    margin-left: 165px; }
+  body .footer .qoshimcha {
+    margin-left: 25px; }
+  body .footer .qollash {
+    margin-left: 25px; }
+  body .footer .tolov {
+    margin-left: 25px; }
+    body .footer .tolov .margin {
+      margin-top: 140px;
+      width: 250px; }
+  body .footer .soc-seti {
+    margin-left: 180px; }
+    body .footer .soc-seti .facebook {
+      margin-left: 20px; }
+    body .footer .soc-seti .instagram {
+      margin-left: 20px; }
+    body .footer .soc-seti .telega {
+      margin-left: 20px; }
+    body .footer .soc-seti button {
+      margin-left: 670px; }
+
+/*# sourceMappingURL=main2.css.map */
